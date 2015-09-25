@@ -4,88 +4,24 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".StupidAfternoonActivity">
+    tools:context=".StupidAfternoonActivity"
+    android:id="@+id/appBackground">
 
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/StupidWords" />
-
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="button"
-        android:id="@+id/toggleButton"
+        android:id="@+id/StupidWords"
+        android:textSize="45dp"
+        android:layout_marginTop="159dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:checked="false" />
-
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="radio"
-        android:id="@+id/radioButton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:checked="false" />
-
-    <RatingBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/ratingBar"
-        android:layout_marginTop="108dp"
-        android:layout_below="@+id/toggleButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="#0315ff"
-        android:layout_below="@+id/toggleButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextClock
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textClock"
-        android:layout_below="@+id/ratingBar"
-        android:layout_toLeftOf="@+id/toggleButton"
-        android:layout_marginTop="45dp"
-        android:layout_above="@+id/radioButton"
-        android:layout_toRightOf="@+id/imageView"
-        android:layout_toEndOf="@+id/imageView" />
-
-    <VideoView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/videoView"
-        android:layout_alignTop="@+id/textClock"
-        android:layout_alignLeft="@+id/ratingBar"
-        android:layout_alignStart="@+id/ratingBar"
-        android:layout_marginTop="75dp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:ems="10"
-        android:id="@+id/editText"
-        android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true" />
 
-    <EditText
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_below="@+id/editText"
-        android:layout_toRightOf="@+id/StupidWords"
-        android:layout_toEndOf="@+id/StupidWords" />
+        android:text="New Button"
+        android:id="@+id/sillybutton"
+        android:layout_below="@+id/StupidWords"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp" />
 
 </RelativeLayout>
