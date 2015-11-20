@@ -7,13 +7,14 @@
     tools:context=".StupidAfternoonActivity"
     android:id="@+id/appBackground">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+    <TextView android:text="Watch_ME_WHIP_AND_NAE_NAE" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/StupidWords"
         android:textSize="45dp"
-        android:layout_marginTop="159dp"
+        android:layout_marginTop="71dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"

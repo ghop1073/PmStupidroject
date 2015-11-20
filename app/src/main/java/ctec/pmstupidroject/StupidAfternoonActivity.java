@@ -17,6 +17,10 @@ public class StupidAfternoonActivity extends AppCompatActivity
     private RelativeLayout background;
     private TextView sillywords;
 
+
+    /*8
+    created instance of button, text, and relative view background
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -30,6 +34,11 @@ public class StupidAfternoonActivity extends AppCompatActivity
         setupListeners();
     }
 
+    /**
+     * increased size of hello world
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
@@ -38,6 +47,9 @@ public class StupidAfternoonActivity extends AppCompatActivity
         return true;
     }
 
+    /**
+     * set up change color method
+     */
     private void changeColors()
     {
         int redColor;
@@ -56,6 +68,10 @@ public class StupidAfternoonActivity extends AppCompatActivity
 
         colorChangeButton.setBackgroundColor(Color.rgb(redColor, greenColor, blueColor));
     }
+
+    /**
+     * Set up listener for button allowing button to change colors
+     */
     private void setupListeners()
     {
         colorChangeButton.setOnClickListener(new  View.OnClickListener()
